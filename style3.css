@@ -1,0 +1,145 @@
+ 
+body {
+    height: 95vh;
+    width: 99vw;
+    background-color: #f2efef;
+  }
+
+.enter-button {
+    display: block;
+    opacity: 1;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transition:  1s ease 1s;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    }
+
+.content-hidden .enter-button { opacity: 0; transform: translate3d(0px, -30px, 0px); }
+
+
+ .enter-button.end{
+    	transition: all 1s ease-in-out;
+    	background-color: rgba(255, 0, 0, 0.0);
+    	box-shadow: none;
+    	border: 0px dashed yellow;
+    	border-radius: 0px;
+        z-index: -1;
+    }
+
+
+.enter-button:hover{cursor:pointer;}
+
+
+#logo {
+        position:absolute; 
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        margin:auto;
+        opacity: 1;
+        border-radius: 100%;
+         }
+    
+    h1  {
+        position: absolute; top: 10px; left: 31%;
+        letter-spacing: 5px;
+        font-size: 50px;
+        color: black;
+        font-family: 'Lato', sans-serif; 
+        }
+    
+     h2 {
+        position: absolute; top: 80px; left: 43.5%;
+        letter-spacing: 5px;
+        font-size: 50px;
+        color: black;
+        font-family: 'Lato', sans-serif; 
+        
+        
+        }
+    
+    .menu   {
+        font-family:'Lato', sans-serif;
+        font-size: 25px;
+        color: black;
+        position: relative; top: 650px;
+        
+            }
+    
+    #somos {
+    
+        position:absolute;
+        left: 150px;
+    
+           }
+    
+    #somos:link, #somos:visited, #somos:active {
+        text-decoration:none;
+	    color: #000000;
+    }
+    
+    
+    #trabalho {
+        position:absolute;
+        left: 44%; 
+    
+              }
+    
+     #trabalho:link, #trabalho:visited, #trabalho:active {
+        text-decoration:none;
+	    color: black;
+    }
+    
+    #contato {
+        position:absolute;
+        right: 150px;
+        
+             }
+    
+     #contato:link, #contato:visited, #contato:active {
+        text-decoration:none;
+	    color: black;
+    }
+    
+    #video {
+       position: absolute;
+        top: 29%;
+        left: 100px;
+        width:400px;
+        height:320px;
+        vertical-align: middle;   
+        
+           }
+    #trailer {
+        position: absolute;
+        top: 29%;
+        right: 100px;
+        width: 400px;
+        height: 320px;
+        vertical-align: middle;
+        
+       
+    }
+    
+    #english {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+    }
+    
+    #dark {
+        position:absolute;
+        left: 50px;
+        top: 50px;
+        border: 5px;
+        font-family: 'Lato', sans-serif; 
+          }
+    #dark:link, #dark:visited, #dark:active {
+        text-decoration:none;
+	    color: black;
+          }
+    
